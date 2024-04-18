@@ -1,5 +1,14 @@
 
+h1 {
+    color: aqua;
+}
 
-.mural div img {
-    height: 100px;
+.mural img {
+    height: 300px;
+}
+.mural {
+    display: grid;
+    border: solid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
